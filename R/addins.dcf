@@ -1,0 +1,4 @@
+Name: Build Project TODO List
+Description: Scans .R and .Rmd files for '# TODO' comments, creates new file with all itens
+Binding: buildTODO
+Interactive: false
