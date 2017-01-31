@@ -1,7 +1,7 @@
 Package: TODO
 Type: Package
 Title: Addin generates TODO.txt
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person(given = c("Kevin", "W."), family = "Byron", 
                   email = "kwbyron@gmail.com", role = c("aut", "cre"))
 Description: Addin scans all .R and .Rmd files in the poject directory for

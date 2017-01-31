@@ -47,7 +47,8 @@ buildTODO <- function(){
 
 .GetTODOs <- function(FILE, DIR){
   # Scan R code as character vector, line by line.
-  code <- scan(file=paste(DIR, FILE, sep = "\\"), what = "character", sep = "\n", blank.lines.skip = FALSE)
+  code <- scan(file=paste(DIR, FILE, sep = "\\"), what = "character", sep = "\n",
+               blank.lines.skip = FALSE, quiet = TRUE)
 
   # Id lines with a commented TODO statement (#TODO or # TODO), case insensitive
   hasTODO <- grepl("# ?\\bTODO\\b", x = code, ignore.case = TRUE)
@@ -67,7 +68,7 @@ buildTODO <- function(){
       #TODO: More testing
     }
   } else {
-    warning("No TODO Items found")
+    # warning("No TODO Items found")
     return(NULL)
   }
   return(todoList)
