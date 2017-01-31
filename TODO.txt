@@ -1,6 +1,0 @@
-TODO Items in: R/hello.R 
-   Line: 15) Fix
- TODO Items in: R/TODO.R 
-   Line: 37) Id lines with a commented  statement (#TODO or # TODO), case insensitive
-   Line: 45) identify individuals, group tasks by person.
-   Line: 52) More testing

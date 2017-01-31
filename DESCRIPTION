@@ -2,13 +2,15 @@ Package: TODO
 Type: Package
 Title: Addin generates TODO.txt
 Version: 0.1.0
-Author: Kevin W. Byron
-Maintainer: Kevin W. Byron <kwbyron@gmail.com>
-Description: Addin scans all .R and .Rmd files in the poject directory for 'TODO' comments
-    TODO items are grouped by file name and ordered by line number, then writen to a seperate file: TODO.txt 
-    This file is overwritten each time the addin is executed. 
+Authors@R: person(given = c("Kevin", "W."), family = "Byron", 
+                  email = "kwbyron@gmail.com", role = c("aut", "cre"))
+Description: Addin scans all .R and .Rmd files in the poject directory for
+    'TODO' comments TODO items are grouped by file name and ordered by line number,
+    then writen to a seperate file: TODO.txt This file is overwritten each time the
+    addin is executed.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Imports: 
-  rstudioapi
+Imports:
+    rstudioapi
+RoxygenNote: 5.0.1
