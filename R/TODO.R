@@ -20,7 +20,7 @@ buildTODO <- function(){
   rFiles <- c(rFiles, rmdFiles)
 
   response <- tcltk::tkmessageBox(message = "Scan project directory for TODO Items (this may take a moment)?",
-               icon = "question", type = "yesnocancel", default = "yes")
+               icon = "question", type = "yesno", default = "yes")
   if(tcltk::tclvalue(response) == "yes"){
     allTODOs <- lapply(rFiles, .GetTODOs, DIR = DIR)
     allTODOs<- do.call(c,allTODOs)
