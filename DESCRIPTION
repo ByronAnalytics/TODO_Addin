@@ -14,3 +14,5 @@ LazyData: true
 Imports:
     rstudioapi
 RoxygenNote: 5.0.1
+URL: http://github.com/ByronAnalytics/TODO_Addin
+BugReports: http://github.com/ByronAnalytics/TODO_Addin/issues
